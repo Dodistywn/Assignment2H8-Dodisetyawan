@@ -1,0 +1,17 @@
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+    background-image: url(img/floor.png);
+}
+
+section {
+    min-height: 420px;
+}
+
+.container-form {
+    background-color: rgb(237, 239, 239);
+}
+
+.container-biodata {
+    padding-top: 30px
+}
