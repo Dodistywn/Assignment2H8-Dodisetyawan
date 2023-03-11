@@ -1,0 +1,13 @@
+body section{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+section {
+    min-height: 350px;
+}
+
+.jumbotron {
+    background-color: rgb(225, 225, 225); 
+    padding-left: 5%; 
+    padding-right: 5%;
+}
