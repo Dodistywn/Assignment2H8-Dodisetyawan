@@ -2,6 +2,14 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     background-image: url(img/floor.png);
+    padding-top: 30px;
+}
+
+.jumbotron {
+    background-color: rgb(187, 187, 187); 
+    height: 170px;
+    width: 100%;
+    border-radius: 3%;
 }
 
 section {
@@ -10,10 +18,6 @@ section {
 
 .container-form {
     background-color: rgb(237, 239, 239);
-}
-
-.container-biodata {
-    padding-top: 30px;
 }
 
 .btn-group {
