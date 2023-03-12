@@ -34,8 +34,8 @@
         </div>
 
         <div class="data" style="float: left; margin: 20px; margin-right: 100px;">
-            <h2> Moh Dodi Setyawan</h2>
-            <p> Web Developer Program</p>
+            <h2 class="nama"> Moh Dodi Setyawan</h2>
+            <p class="role"> Web Developer Program</p>
             <div class="btn-group" role="group" aria-label="Third group">
                 <button type="button" id="btn-edit" class="btn btn-light">Edit</button>
             </div>
@@ -51,11 +51,11 @@
             <p>Email :</p>
         </div>
         <div class="data2" style="float: left; margin: 20px; line-height: 12px;">
-            <p>Full Time</p>
-            <p>21</p>
-            <p>Pati</p>
-            <p>2</p>
-            <p>dodisetya000@gmail.com</p>
+            <p class="availability">Full Time</p>
+            <p class="usia">21</p>
+            <p class="lokasi">Pati</p>
+            <p class="yearsEx">2</p>
+            <p class="email">dodisetya000@gmail.com</p>
         </div>
     </div>
     
@@ -64,35 +64,35 @@
         <div class="pt-2" style="line-height: 25px; margin-top: 10px;">
             <form>
                 <div class="form-group">
-                    <label for="nama">Nama</label><br>
+                    <label for="nama">Nama</label>
                     <input style="width: 100%;" type="nama" class="form-biodata" id="nama">
                 </div>
                 <div class="form-group">
-                    <label for="role">Role</label><br>
+                    <label for="role">Role</label>
                     <input style="width: 100%;" type="text" class="form-biodata" id="role">
                 </div>
                 <div class="form-group">
-                    <label for="availability">Availability</label><br>
+                    <label for="availability">Availability</label>
                     <input style="width: 100%;" type="text" class="form-biodata" id="availability">
                 </div>
                 <div class="form-group">
-                    <label for="usia">Usia</label><br>
+                    <label for="usia">Usia</label>
                     <input style="width: 100%;" type="text" class="form-biodata" id="usia">
                 </div>
                 <div class="form-group">
-                    <label for="lokasi">Lokasi</label><br>
+                    <label for="lokasi">Lokasi</label>
                     <input style="width: 100%;" type="text" class="form-biodata" id="lokasi">
                 </div>
                 <div class="form-group">
-                    <label for="yearsexperience">Years Experience</label><br>
+                    <label for="yearsexperience">Years Experience</label>
                     <input style="width: 100%;" type="text" class="form-biodata" id="yearsexperience">
                 </div>
                 <div class="form-group">
-                    <label for="email">Email</label><br>
+                    <label for="email">Email</label>
                     <input style="width: 100%;" type="email" class="form-biodata" id="email">
                 </div>
                 <div class="form-group pt-3">
-                    <button style="width: 100%;" type="button" class="btn btn-dark">SUBMIT</button>
+                    <button style="width: 100%;" onclick="myform()" type="button" id="btn-submit" class="btn btn-dark">SUBMIT</button>
                 </div>
             </form>
         </div>
