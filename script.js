@@ -1,7 +1,8 @@
 
-// hide and show
+// hide and show form
 let btn = document.querySelector('#btn-edit');
 let div = document.querySelector('.container-form');
+div.style.display = "none";
 
 btn.addEventListener('click', () =>{
     if(div.style.display === 'none'){
@@ -10,10 +11,4 @@ btn.addEventListener('click', () =>{
         div.style.display = 'none'
     }
 })
-
-
-// function myFunction() {
-//     var element = document.getElementById("#btn-edit");
-//     element.classList.toggle(".container-form");
-//   }
 
