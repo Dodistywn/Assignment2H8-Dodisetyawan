@@ -6,6 +6,8 @@ body{
     padding-top: 30px;
 }
 
+/* Navbar */
+
 
 /* heading */
 .jumbotron {
@@ -21,23 +23,27 @@ body{
 }
 .profil {
     float: left; 
-    margin: 15px;
+    margin: 30px;
+    margin-right: 0px;
     width: 10%;
 }
 .data-1 {
     float: left; 
-    margin: 20px; 
+    margin: 30px; 
     margin-right: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
 }
 .biodata {
     float: left; 
-    margin: 19px; 
-    line-height: 14px;
+    margin: 35px;
+    margin-left: 0px; 
+    margin-right: 0px;
+    line-height: 12px;
 }
 .biodata-isi {
     float: left;
-    margin: 19px; 
-    line-height: 14px;
+    margin: 35px; 
+    line-height: 12px;
 }
 
 

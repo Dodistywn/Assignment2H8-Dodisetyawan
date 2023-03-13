@@ -1,4 +1,3 @@
-
 // membuat variabel button
 const btn1 = document.querySelector('#btn-edit');
 const btn2 = document.querySelector('#btn-cancel');
@@ -53,19 +52,22 @@ const emailTeks = document.querySelector('#email');
 
         // Sembunyikan form setelah di-submit
         forms.style.display = 'none';
+
+            // menghilangkan inputan sebelumnya
+            namaInput.value = '';
+            roleInput.value = '';
+            availabilityInput.value = '';
+            usiaInput.value = '';
+            alamatInput.value = '';
+            pengalamanInput.value = '';
+            emailInput.value = '';
     });
 
 
 
 
 
-// namaInput.value = '';
-// roleInput.value = '';
-// availabilityInput.value = '';
-// usiaInput.value = '';
-// alamatInput.value = '';
-// pengalamanInput.value = '';
-// emailInput.value = '';
+
 
 // // Memunculkan data pada heading ke dalam form saat button edit di klik
 // function editBiodata() {
