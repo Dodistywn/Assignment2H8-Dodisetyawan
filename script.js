@@ -1,16 +1,24 @@
 
 // hide and show form
-let btn = document.querySelector('#btn-edit');
+let btn1 = document.querySelector('#btn-edit');
+let btn2 = document.querySelector('#btn-cancel');
 let div = document.querySelector('.container-form');
 div.style.display = "none";
 
-btn.addEventListener('click', () =>{
+btn1.addEventListener('click', () =>{
     if(div.style.display === 'none'){
         div.style.display = 'block';
-    }else {
-        div.style.display = 'none'
     }
 })
+
+btn2.addEventListener('click', () =>{
+    if(div.style.display = 'none'){
+        div.style.display === 'block';
+    }
+})
+
+
+
 
 // tampilkan inputan form
 // function myform(){
