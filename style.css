@@ -1,3 +1,4 @@
+/* body */
 body{
     padding-left: 5%;
     padding-right: 5%;
@@ -5,6 +6,8 @@ body{
     padding-top: 30px;
 }
 
+
+/* heading */
 .jumbotron {
     background-color: rgb(187, 187, 187); 
     height: 200px;
@@ -12,16 +15,37 @@ body{
     border-radius: 3%;
     box-shadow: 5px 5px 5px #aaaaaa;
 }
-
-section {
-    min-height: 420px;
-}
-
-.container-form {
-    background-color: rgb(237, 239, 239);
-}
-
 .btn-group {
     width: 80px;
     height: 40px;
+}
+.profil {
+    float: left; 
+    margin: 15px;
+    width: 10%;
+}
+.data-1 {
+    float: left; 
+    margin: 20px; 
+    margin-right: 100px;
+}
+.biodata {
+    float: left; 
+    margin: 19px; 
+    line-height: 14px;
+}
+.biodata-isi {
+    float: left;
+    margin: 19px; 
+    line-height: 14px;
+}
+
+
+/* form */
+.container-form {
+    background-color: rgb(237, 239, 239);
+}
+#form {
+    line-height: 25px; 
+    margin-top: 10px;
 }

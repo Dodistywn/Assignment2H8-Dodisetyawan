@@ -3,14 +3,26 @@
 const btn1 = document.querySelector('#btn-edit');
 const btn2 = document.querySelector('#btn-cancel');
 const forms = document.querySelector('.container-form');
+
+// menghilangkan form dari tampilan awal 
 forms.style.display = "none";
 
+// button edit show form
 btn1.addEventListener('click', () =>{
     if(forms.style.display === 'none'){
         forms.style.display = 'block';
     }
+    
+    namaInput.value = '';
+    roleInput.value = '';
+    availabilityInput.value = '';
+    usiaInput.value = '';
+    alamatInput.value = '';
+    pengalamanInput.value = '';
+    emailInput.value = '';
 })
 
+// button cancel hide form
 btn2.addEventListener('click', () =>{
     if(forms.style.display = 'none'){
         forms.style.display === 'block';
@@ -61,19 +73,12 @@ form.addEventListener('submit', (event) => {
     pengalamanTeks.textContent = pengalamanInput.value;
     emailTeks.textContent = emailInput.value;
 
-    // Mengosongkan input form
-    namaInput.value = '';
-    roleInput.value = '';
-    availabilityInput.value = '';
-    usiaInput.value = '';
-    alamatInput.value = '';
-    pengalamanInput.value = '';
-    emailInput.value = '';
-
     // Sembunyikan form setelah di-submit
     forms.style.display = 'none';
     biodataHeading.style.display = 'block';
 });
+
+
 
 // Mengubah kondisi agar button edit dapat mengeditan berkali kali
 
